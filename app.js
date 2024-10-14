@@ -6,9 +6,11 @@ const pool = require('./db');
 
 dotenv.config();
 
+console.log('JWT Secret:', process.env.JWT_SECRET);
+
 const app = express();
 app.use(cors());
-app.use(express.json());
+app.use(express.json());  
 app.use('/api', routes);
 
 const PORT = process.env.PORT || 3000;

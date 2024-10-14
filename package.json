@@ -1,16 +1,16 @@
 {
   "name": "connectcx",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "API para gerenciamento de contatos e interações.",
+  "main": "app.js",
+"scripts": {
+  "start": "node app.js",
+  "dev": "nodemon app.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Cauani",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
@@ -26,3 +26,4 @@
     "nodemon": "^3.1.7"
   }
 }
+
